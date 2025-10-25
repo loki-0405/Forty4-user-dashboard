@@ -1,0 +1,12 @@
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 20px;
+}
+
+.no-users {
+  text-align: center;
+  color: #555;
+  font-style: italic;
+}

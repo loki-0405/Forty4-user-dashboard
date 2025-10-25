@@ -1,0 +1,150 @@
+.user-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 1.2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.user-meta {
+  text-align: left;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.details-link {
+  display: inline-block;
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.details-link:hover {
+  color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+  .user-card {
+    padding: 1rem;
+  }
+  .user-name {
+    font-size: 1rem;
+  }
+  .user-avatar {
+    width: 70px;
+    height: 70px;
+  }
+}
+.user-card {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.35s ease;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.user-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.avatar-container {
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 6px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.user-card:hover .avatar-container {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  object-fit: cover;
+}
+
+.user-name {
+  margin-top: 0.9rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.user-meta {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+}
+
+.details-link {
+  display: inline-block;
+  background: #fff;
+  color: #2575fc;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.details-link:hover {
+  background: #2575fc;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 500px) {
+  .user-card {
+    padding: 1rem;
+  }
+  .user-name {
+    font-size: 1.1rem;
+  }
+  .user-meta {
+    font-size: 0.85rem;
+  }
+  .user-avatar {
+    width: 65px;
+    height: 65px;
+  }
+}
+
